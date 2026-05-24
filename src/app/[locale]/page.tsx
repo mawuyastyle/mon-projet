@@ -34,10 +34,8 @@ function HeroSection() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/collection"
-                  className="inline-block px-8 py-3.5 text-caps text-[12px] text-white transition-colors duration-200"
+                  className="mw-btn-primary inline-block px-8 py-3.5 text-caps text-[12px] text-white"
                   style={{ backgroundColor: 'var(--mw-ink)' }}
-                  onMouseEnter={e => (e.currentTarget.style.backgroundColor = 'var(--mw-stone)')}
-                  onMouseLeave={e => (e.currentTarget.style.backgroundColor = 'var(--mw-ink)')}
                 >
                   {t('hero.cta_primary')}
                 </Link>
