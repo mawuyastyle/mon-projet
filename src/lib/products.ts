@@ -38,7 +38,7 @@ export const products: Product[] = [
     ],
     hero: true,
     category: 'signature',
-    images: ['/products/pyramid-1.jpg', '/products/pyramid-2.jpg']
+    images: ['/products/pyramid-1.jpg', '/products/pyramid-2.jpg', '/products/pyramid-3.jpg']
   },
   {
     slug: 'en-v',
@@ -78,7 +78,7 @@ export const products: Product[] = [
     ],
     hero: true,
     category: 'nouvelle-collection',
-    images: ['/products/nafi-1.jpg', '/products/nafi-2.jpg']
+    images: ['/products/nafi-1.jpg', '/products/nafi-2.jpg', '/products/nafi-3.jpg', '/products/nafi-4.jpg']
   },
   {
     slug: 'cuvee',
@@ -96,7 +96,7 @@ export const products: Product[] = [
       { name: 'Cuvée', price: 55000, color: 'Rouge ou Noir' }
     ],
     category: 'cuvee',
-    images: ['/products/cuvee-1.jpg', '/products/cuvee-2.jpg']
+    images: ['/products/cuvee-1.jpg', '/products/cuvee-2.jpg', '/products/cuvee-3.jpg']
   },
   {
     slug: 'wax',
@@ -112,7 +112,7 @@ export const products: Product[] = [
       { name: 'Wax', price: 48000, color: 'Marron ou Rose' }
     ],
     category: 'nouvelle-collection',
-    images: ['/products/wax-1.jpg']
+    images: ['/products/wax-1.jpg', '/products/wax-2.jpg']
   },
   {
     slug: 'speciale',
@@ -128,7 +128,7 @@ export const products: Product[] = [
       { name: 'Spéciale', price: 125000, color: 'À déterminer' }
     ],
     category: 'edition-limitee',
-    images: ['/products/speciale-1.jpg']
+    images: ['/products/speciale-1.jpg', '/products/speciale-2.jpg']
   },
   {
     slug: 'athiena',
@@ -161,7 +161,7 @@ export const products: Product[] = [
       { name: 'Danca Mini', price: 58000, color: 'Noir' }
     ],
     category: 'collection',
-    images: ['/products/danca-1.jpg']
+    images: ['/products/danca-1.jpg', '/products/danca-2.jpg']
   },
   {
     slug: 'pochette-bandouliere',

@@ -6,6 +6,7 @@ import { products, getProductBySlug, whatsappLink } from '@/lib/products';
 import { routing } from '@/i18n/routing';
 import Accordion from '@/components/Accordion';
 import VariantSelector from '@/components/VariantSelector';
+import ProductGallery from '@/components/ProductGallery';
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -57,21 +58,7 @@ export default async function ProductPage({ params }: Props) {
 
           {/* Gauche — images */}
           <div className="w-full md:w-1/2">
-            <div
-              className="w-full aspect-square mb-4"
-              style={{ backgroundColor: 'var(--mw-line)' }}
-            />
-            {product.images.length > 1 && (
-              <div className="flex gap-3">
-                {product.images.map((_, i) => (
-                  <div
-                    key={i}
-                    className="w-20 aspect-square"
-                    style={{ backgroundColor: 'var(--mw-line)' }}
-                  />
-                ))}
-              </div>
-            )}
+            <ProductGallery images={product.images} name={product.name} />
           </div>
 
           {/* Droite — infos */}
