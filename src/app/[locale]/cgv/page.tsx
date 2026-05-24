@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import FadeInUp from '@/components/ui/FadeInUp';
+
+export const metadata: Metadata = {
+  title: 'Conditions générales de vente — MAWUYA',
+  description: 'Conditions générales de vente de la maison MAWUYA. Commandes, livraison, retours et remboursements.',
+};
 
 export default function CGVPage() {
   return (

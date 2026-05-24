@@ -1,6 +1,20 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import FadeInUp from '@/components/ui/FadeInUp';
 import ContactForm from '@/components/ContactForm';
+
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const isFr = locale === 'fr';
+  return {
+    title: isFr ? 'Contact — MAWUYA' : 'Contact — MAWUYA',
+    description: isFr
+      ? 'Contactez la maison MAWUYA pour toute commande, demande sur mesure ou question. Nous répondons personnellement.'
+      : 'Contact MAWUYA for any order, bespoke request or question. We respond personally.',
+  };
+}
 
 export default async function ContactPage() {
   const t = await getTranslations('contact');

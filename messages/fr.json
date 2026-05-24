@@ -87,7 +87,9 @@
     "livraison": "Livraison",
     "entretien": "Entretien",
     "handmade": "Fait à la main à Abidjan · Production limitée · Délai 5 à 10 jours ouvrés",
-    "view_360": "Voir en rotation 360°"
+    "view_360": "Voir en rotation 360°",
+    "from": "À partir de",
+    "currency": "FCFA"
   },
   "maison": {
     "title1": "Une maison",

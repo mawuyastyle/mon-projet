@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import FadeInUp from '@/components/ui/FadeInUp';
+
+export const metadata: Metadata = {
+  title: 'Livraison & retours — MAWUYA',
+  description: 'Informations de livraison et politique de retours MAWUYA. Abidjan, international, pièces sur mesure.',
+};
 
 export default function LivraisonPage() {
   return (

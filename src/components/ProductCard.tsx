@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import type { Product } from '@/lib/products';
-import FadeInUp from './ui/FadeInUp';
+import FadeInUp from '@/components/ui/FadeInUp';
 
 export default function ProductCard({ product, index = 0 }: { product: Product; index?: number }) {
   const t = useTranslations('collection');

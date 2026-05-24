@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import FadeInUp from '@/components/ui/FadeInUp';
+
+export const metadata: Metadata = {
+  title: 'Politique de confidentialité — MAWUYA',
+  description: "Politique de confidentialité de la maison MAWUYA. Collecte, traitement et protection de vos données personnelles.",
+};
 
 export default function PrivacyPage() {
   return (

@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import FadeInUp from '@/components/ui/FadeInUp';
+
+export const metadata: Metadata = {
+  title: "Entretien du cuir — MAWUYA",
+  description: "Comment prendre soin de votre sac MAWUYA. Conseils d'entretien pour le cuir lisse, le cuir grainé et les matières d'exception.",
+};
 
 export default function EntretienPage() {
   return (

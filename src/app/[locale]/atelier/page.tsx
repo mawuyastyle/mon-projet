@@ -1,5 +1,19 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import FadeInUp from '@/components/ui/FadeInUp';
+
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const isFr = locale === 'fr';
+  return {
+    title: isFr ? "L'atelier — MAWUYA" : 'The atelier — MAWUYA',
+    description: isFr
+      ? "Aux Deux Plateaux, Abidjan. Vingt pièces par mois, façonnées à la main. Découvrez l'espace où chaque sac MAWUYA prend forme."
+      : 'In Deux Plateaux, Abidjan. Twenty pieces a month, handcrafted. Discover the space where every MAWUYA bag takes shape.',
+  };
+}
 
 export default async function AtelierPage() {
   const t = await getTranslations('atelier_page');

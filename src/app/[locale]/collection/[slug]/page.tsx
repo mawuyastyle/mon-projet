@@ -86,7 +86,7 @@ export default async function ProductPage({ params }: Props) {
               {product.tagline}
             </p>
             <p className="text-2xl font-semibold mb-8">
-              {t('from')} {minPrice.toLocaleString('fr-FR')} {locale === 'fr' ? 'FCFA' : 'FCFA'}
+              {t('from')} {minPrice.toLocaleString('fr-FR')} {t('currency')}
             </p>
 
             <VariantSelector product={product} />

@@ -87,7 +87,9 @@
     "livraison": "Shipping",
     "entretien": "Leather care",
     "handmade": "Handcrafted in Abidjan · Limited production · 5 to 10 business days",
-    "view_360": "View 360° rotation"
+    "view_360": "View 360° rotation",
+    "from": "From",
+    "currency": "FCFA"
   },
   "maison": {
     "title1": "A house",

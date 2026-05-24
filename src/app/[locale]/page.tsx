@@ -4,6 +4,7 @@ import { products } from '@/lib/products';
 import FadeInUp from '@/components/ui/FadeInUp';
 import ProductCard from '@/components/ProductCard';
 import NewsletterForm from '@/components/NewsletterForm';
+import HeroCarousel from '@/components/HeroCarousel';
 
 function HeroSection() {
   const t = useTranslations();
@@ -11,19 +12,9 @@ function HeroSection() {
     <section className="min-h-screen flex items-center pt-16" style={{ backgroundColor: 'var(--mw-white)' }}>
       <div className="max-w-screen-xl mx-auto px-6 md:px-10 w-full">
         <div className="flex flex-col md:flex-row items-center gap-12 md:gap-0">
-          {/* Visuel sac — placeholder */}
+          {/* Carousel 3D */}
           <div className="w-full md:w-[60%] flex items-center justify-center">
-            <div
-              className="w-full max-w-[520px] aspect-square flex items-end justify-center relative"
-              style={{ backgroundColor: 'var(--mw-line)' }}
-            >
-              <span
-                className="absolute bottom-6 left-1/2 -translate-x-1/2 text-caps text-[11px]"
-                style={{ color: 'var(--mw-stone)' }}
-              >
-                3D CAROUSEL · À VENIR
-              </span>
-            </div>
+            <HeroCarousel />
           </div>
 
           {/* Texte */}

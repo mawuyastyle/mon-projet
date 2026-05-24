@@ -1,6 +1,20 @@
+import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import FadeInUp from '@/components/ui/FadeInUp';
+
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const isFr = locale === 'fr';
+  return {
+    title: isFr ? 'Journal — MAWUYA' : 'Journal — MAWUYA',
+    description: isFr
+      ? 'Histoires, savoir-faire, regards. Les textes de la maison MAWUYA.'
+      : 'Stories, craft, perspectives. The writings of the MAWUYA house.',
+  };
+}
 
 export default function JournalPage() {
   const t = useTranslations('journal_section');
