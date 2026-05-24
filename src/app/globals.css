@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-mw-white: #FAFAF7;
+  --color-mw-ink: #0A0A0A;
+  --color-mw-stone: #6B6B66;
+  --color-mw-line: #E8E5DE;
+  --color-mw-gold: #B8945F;
+}
+
+:root {
+  --mw-white: #FAFAF7;
+  --mw-ink: #0A0A0A;
+  --mw-stone: #6B6B66;
+  --mw-line: #E8E5DE;
+  --mw-gold: #B8945F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--mw-white);
+  color: var(--mw-ink);
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 16px;
+  background-color: var(--mw-white);
+  color: var(--mw-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: 'Times New Roman', Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.text-caps {
+  font-family: 'Inter', system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+}
+
+/* Underline animation */
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 200ms ease;
+}
+.link-underline:hover::after {
+  width: 100%;
+}
+
+/* Scroll fade-in */
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-up {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "collection": "Collection",
+    "maison": "Maison",
+    "atelier": "Atelier",
+    "journal": "Journal",
+    "contact": "Contact"
+  },
+  "tagline": "La créativité avec un brin d'audace.",
+  "hero": {
+    "title1": "Pas une marque africaine.",
+    "title2": "Une maison contemporaine née à Abidjan.",
+    "subtitle": "MAWUYA — MAROQUINERIE — ABIDJAN — 2021",
+    "cta_primary": "Découvrir la collection",
+    "cta_secondary": "Notre histoire →"
+  },
+  "signatures": {
+    "eyebrow": "LES SIGNATURES",
+    "title": "Trois formes. Trois caractères.",
+    "pyramid_tagline": "Une présence avant les mots.",
+    "v_tagline": "L'élégance dans sa forme la plus graphique.",
+    "nafi_tagline": "La douceur d'une forme, la force d'une présence.",
+    "nafi_badge": "Nouvelle collection",
+    "from": "À partir de",
+    "currency": "FCFA",
+    "cta": "Voir le modèle"
+  },
+  "manifeste": {
+    "line1": "Des pièces que l'on garde.",
+    "line2": "Des pièces que l'on transmet.",
+    "body": "Chaque sac MAWUYA est pensé pour vivre longtemps. Pour traverser les saisons sans en suivre aucune. Pour devenir, avec le temps, l'objet qu'on confie à celles qui viennent après nous."
+  },
+  "atelier_section": {
+    "eyebrow": "L'ATELIER",
+    "title": "Pensé, dessiné et façonné à Abidjan.",
+    "body": "Notre atelier des Deux Plateaux est le cœur de la maison. Chaque pièce y est imaginée par Ama Diallo, fondatrice, puis confiée à nos artisans partenaires. Vingt sacs sortent chaque mois. Pas un de plus.",
+    "cta": "Visiter l'atelier"
+  },
+  "nouvelle_collection": {
+    "eyebrow": "2026",
+    "title": "Nouvelle collection.",
+    "cta": "Voir toute la collection →"
+  },
+  "journal_section": {
+    "eyebrow": "LE JOURNAL",
+    "title": "Histoires, savoir-faire, regards.",
+    "article1_title": "L'histoire d'un sac né sur une plage",
+    "article1_desc": "Comment le Sac en V est devenu iconique.",
+    "article2_title": "Vingt sacs par mois. Pourquoi ?",
+    "article2_desc": "Notre choix d'une production limitée.",
+    "article3_title": "Ce que cachent nos détails dorés",
+    "article3_desc": "La poupée Akan, signature discrète de la maison."
+  },
+  "newsletter": {
+    "title": "Restez proches.",
+    "body": "Quatre lettres par an. Aucune publicité. Juste les nouveautés, les éditions limitées et les rendez-vous privés à l'atelier.",
+    "placeholder": "Votre adresse email",
+    "cta": "S'inscrire"
+  },
+  "footer": {
+    "tagline": "La créativité avec un brin d'audace.",
+    "location": "Atelier — Abidjan, Côte d'Ivoire",
+    "col2_title": "Maison",
+    "col3_title": "Service",
+    "livraison": "Livraison & retours",
+    "entretien": "Entretien du cuir",
+    "cgv": "Conditions de vente",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© 2026 MAWUYA. Tous droits réservés."
+  },
+  "collection": {
+    "title": "Collection.",
+    "filter_all": "Tous",
+    "filter_signature": "Pièces signatures",
+    "filter_nouvelle": "Nouvelle collection",
+    "filter_cuvee": "Cuvée",
+    "filter_petite": "Petite maroquinerie",
+    "filter_limitee": "Éditions limitées",
+    "from": "À partir de",
+    "currency": "FCFA"
+  },
+  "product": {
+    "add_to_cart": "AJOUTER AU PANIER",
+    "whatsapp": "Commander sur WhatsApp",
+    "description": "Description",
+    "details": "Détails & matières",
+    "livraison": "Livraison",
+    "entretien": "Entretien",
+    "handmade": "Fait à la main à Abidjan · Production limitée · Délai 5 à 10 jours ouvrés",
+    "view_360": "Voir en rotation 360°"
+  },
+  "maison": {
+    "title1": "Une maison",
+    "title2": "née d'un geste.",
+    "intro": "En 2021, dans un appartement d'Abidjan, une jeune femme décore une pochette noire avec des cauris et des poids baoulés. Elle ne connaît rien à la maroquinerie. Elle ne sait pas encore que ce geste deviendra une maison.",
+    "declic_eyebrow": "2021",
+    "declic_title": "Le premier sac.",
+    "fondatrice_eyebrow": "LA FONDATRICE",
+    "fondatrice_title": "Ama Diallo.",
+    "nom_eyebrow": "LE NOM",
+    "nom_title": "MAWUYA.",
+    "aujourd_title": "Aujourd'hui.",
+    "cta": "Découvrir la collection →"
+  },
+  "atelier_page": {
+    "title": "L'atelier.",
+    "cta": "Prendre rendez-vous →"
+  },
+  "contact": {
+    "title": "Contact.",
+    "intro": "Pour toute question, commande sur mesure, demande presse ou simplement pour échanger : nous répondons personnellement.",
+    "atelier_label": "ATELIER",
+    "email_label": "EMAIL",
+    "whatsapp_label": "WHATSAPP",
+    "whatsapp_cta": "Écrire sur WhatsApp →",
+    "social_label": "SUIVRE LA MAISON",
+    "form_name": "Nom",
+    "form_email": "Email",
+    "form_subject": "Sujet",
+    "form_message": "Message",
+    "form_submit": "Envoyer",
+    "form_reply": "Nous répondons sous 48 heures ouvrées.",
+    "subject_commande": "Commande",
+    "subject_sur_mesure": "Sur mesure",
+    "subject_presse": "Presse",
+    "subject_autre": "Autre"
+  },
+  "livraison": {
+    "title": "Livraison & retours."
+  },
+  "entretien": {
+    "title": "L'entretien du cuir."
+  }
+}

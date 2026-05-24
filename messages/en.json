@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "collection": "Collection",
+    "maison": "The House",
+    "atelier": "Atelier",
+    "journal": "Journal",
+    "contact": "Contact"
+  },
+  "tagline": "Creativity, with a whisper of daring.",
+  "hero": {
+    "title1": "Not an African brand.",
+    "title2": "A contemporary house, born in Abidjan.",
+    "subtitle": "MAWUYA — LEATHER GOODS — ABIDJAN — 2021",
+    "cta_primary": "Explore the collection",
+    "cta_secondary": "Our story →"
+  },
+  "signatures": {
+    "eyebrow": "SIGNATURES",
+    "title": "Three forms. Three characters.",
+    "pyramid_tagline": "A presence, before any word.",
+    "v_tagline": "Elegance in its most graphic form.",
+    "nafi_tagline": "The softness of a shape, the strength of a presence.",
+    "nafi_badge": "New collection",
+    "from": "From",
+    "currency": "FCFA",
+    "cta": "View piece"
+  },
+  "manifeste": {
+    "line1": "Pieces to keep.",
+    "line2": "Pieces to pass on.",
+    "body": "Every MAWUYA bag is designed to last. To move through seasons without following any. To become, with time, the object one entrusts to those who come after."
+  },
+  "atelier_section": {
+    "eyebrow": "THE ATELIER",
+    "title": "Imagined, drawn and crafted in Abidjan.",
+    "body": "Our Deux Plateaux atelier is the heart of the house. Each piece is imagined by Ama Diallo, founder, then entrusted to our partner craftspeople. Twenty bags leave each month. Not one more.",
+    "cta": "Inside the atelier"
+  },
+  "nouvelle_collection": {
+    "eyebrow": "2026",
+    "title": "New collection.",
+    "cta": "View the full collection →"
+  },
+  "journal_section": {
+    "eyebrow": "THE JOURNAL",
+    "title": "Stories, craft, perspectives.",
+    "article1_title": "The story of a bag born on a beach",
+    "article1_desc": "How the V Bag became iconic.",
+    "article2_title": "Twenty bags a month. Why?",
+    "article2_desc": "Our choice of limited production.",
+    "article3_title": "What our golden details conceal",
+    "article3_desc": "The Akan doll, the house's quiet signature."
+  },
+  "newsletter": {
+    "title": "Stay close.",
+    "body": "Four letters a year. No advertising. Just new pieces, limited editions, and private atelier appointments.",
+    "placeholder": "Your email address",
+    "cta": "Subscribe"
+  },
+  "footer": {
+    "tagline": "Creativity, with a whisper of daring.",
+    "location": "Atelier — Abidjan, Côte d'Ivoire",
+    "col2_title": "The House",
+    "col3_title": "Service",
+    "livraison": "Shipping & returns",
+    "entretien": "Leather care",
+    "cgv": "Terms & conditions",
+    "privacy": "Privacy policy",
+    "copyright": "© 2026 MAWUYA. All rights reserved."
+  },
+  "collection": {
+    "title": "Collection.",
+    "filter_all": "All",
+    "filter_signature": "Signature pieces",
+    "filter_nouvelle": "New collection",
+    "filter_cuvee": "Cuvée",
+    "filter_petite": "Small leather goods",
+    "filter_limitee": "Limited editions",
+    "from": "From",
+    "currency": "FCFA"
+  },
+  "product": {
+    "add_to_cart": "ADD TO BAG",
+    "whatsapp": "Order via WhatsApp",
+    "description": "Description",
+    "details": "Details & materials",
+    "livraison": "Shipping",
+    "entretien": "Leather care",
+    "handmade": "Handcrafted in Abidjan · Limited production · 5 to 10 business days",
+    "view_360": "View 360° rotation"
+  },
+  "maison": {
+    "title1": "A house",
+    "title2": "born from a gesture.",
+    "intro": "In 2021, in an Abidjan apartment, a young woman decorates a black clutch with cowries and Baoulé weights. She knows nothing about leather goods. She does not yet know that this gesture will become a house.",
+    "declic_eyebrow": "2021",
+    "declic_title": "The first bag.",
+    "fondatrice_eyebrow": "THE FOUNDER",
+    "fondatrice_title": "Ama Diallo.",
+    "nom_eyebrow": "THE NAME",
+    "nom_title": "MAWUYA.",
+    "aujourd_title": "Today.",
+    "cta": "Explore the collection →"
+  },
+  "atelier_page": {
+    "title": "The atelier.",
+    "cta": "Book a visit →"
+  },
+  "contact": {
+    "title": "Contact.",
+    "intro": "For any question, bespoke order, press inquiry, or simply to connect — we respond personally.",
+    "atelier_label": "ATELIER",
+    "email_label": "EMAIL",
+    "whatsapp_label": "WHATSAPP",
+    "whatsapp_cta": "Message on WhatsApp →",
+    "social_label": "FOLLOW THE HOUSE",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_subject": "Subject",
+    "form_message": "Message",
+    "form_submit": "Send",
+    "form_reply": "We respond within 48 business hours.",
+    "subject_commande": "Order",
+    "subject_sur_mesure": "Bespoke",
+    "subject_presse": "Press",
+    "subject_autre": "Other"
+  },
+  "livraison": {
+    "title": "Shipping & returns."
+  },
+  "entretien": {
+    "title": "Leather care."
+  }
+}
